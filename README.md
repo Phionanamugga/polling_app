@@ -24,7 +24,7 @@ A web-based application that enables users to participate in polls and allows ad
 
 ## **Steps**
 1. Clone the repository:
-- git clone https://github.com/yourusername/polling-app.git
+- git clone https://github.com/phionanamugga/polling-app.git
 - cd polling-app
 
 2. Set up a virtual environment:
