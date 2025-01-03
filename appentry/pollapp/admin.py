@@ -7,9 +7,7 @@ admin.site.register(Question, QuestionAdmin)
 # ...
 admin.site.register(Choice)
 
-class ChoiceInline(admin.StackedInline):
-    model = Choice
-    extra = 3
+class ChoiceInline(admin.TabularInline): ...
 
 
 class QuestionAdmin(admin.ModelAdmin):
